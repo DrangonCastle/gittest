@@ -1,9 +1,15 @@
 package com.yang.main;
 
+import java.util.List;
+import com.yang.dao.UserDao;
+import com.yang.entity.User;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
+		UserDao dao= new UserDao();
+		List<User> list =dao.getUserList();
+		
 	}
-
+	
 }

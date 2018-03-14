@@ -22,7 +22,7 @@ public class UserDao {
 	public int GetAge() {
 		return age;
 	}
-	public int GetScore() {
+	public double GetScore() {
 		return score;
 	}
 	public void SetName(String name) {
@@ -31,7 +31,7 @@ public class UserDao {
 	public void SetAge(int age) {
 		this.age = age;
 	}
-	public void SetScore(int score) {
+	public void SetScore(double score) {
 		this.score = score;
 	}
 }
